@@ -187,7 +187,7 @@ function Presentation() {
                   Thank you for your support!
                 </MKTypography>
                 <MKTypography variant="body1" color="text">
-                  We deliver the best web products
+                  We deliver the best animal care solutions!
                 </MKTypography>
               </Grid>
               <Grid

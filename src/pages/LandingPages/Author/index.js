@@ -34,7 +34,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/city-profile.jpg";
+import bgImage from "assets/images/backgroundBlogs.avif";
 
 function Author() {
   return (

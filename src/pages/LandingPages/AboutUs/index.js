@@ -17,6 +17,7 @@ Coded by www.creative-tim.com
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
 import Card from "@mui/material/Card";
+import "./About.css";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -29,7 +30,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // About Us page sections
 import Information from "pages/LandingPages/AboutUs/sections/Information";
-import Team from "pages/LandingPages/AboutUs/sections/Team";
+// import Team from "pages/LandingPages/AboutUs/sections/Team";
 import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
 import Newsletter from "pages/LandingPages/AboutUs/sections/Newsletter";
 
@@ -38,7 +39,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+// import bgImage from "assets/images/bg-about-us.jpg";
 
 function AboutUs() {
   return (
@@ -62,7 +63,7 @@ function AboutUs() {
             `${linearGradient(
               rgba(gradients.dark.main, 0.6),
               rgba(gradients.dark.state, 0.6)
-            )}, url(${bgImage})`,
+            )}, url(https://img.freepik.com/free-photo/cute-dog-sleeping-ai-generated_23-2150651519.jpg?t=st=1695831477~exp=1695835077~hmac=846ac4f87e53dc18408e0f81c89b683a0496a869cb325772276d6acd29bdf85c&w=1380)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "grid",
@@ -89,11 +90,11 @@ function AboutUs() {
                 },
               })}
             >
-              Work with an amazing design
+              Working together to Protect Animals
             </MKTypography>
             <MKTypography variant="body1" color="white" opacity={0.8} mt={1} mb={3}>
-              We&apos;re constantly trying to express ourselves and actualize our dreams. If you
-              have the opportunity to play this game
+              We are an Globian Non-Proft-Organization that support good causes and positive changes
+              all over the world
             </MKTypography>
             <MKButton color="default" sx={{ color: ({ palette: { dark } }) => dark.main }}>
               create account
@@ -128,7 +129,21 @@ function AboutUs() {
         }}
       >
         <Information />
-        <Team />
+        {/* <Team /> */}
+        <div className="mission_vission">
+          <div className="mission">
+            <h1>Mission</h1>
+            Our Mission is to rescue un-owned street animal of shegaon who havebecome ill or
+            injured, and throught there rescue inspire a community to protect and defend the lives
+            of all animals
+          </div>
+          <div className="vision">
+            <h1>Vision</h1>
+            Our Mission is to rescue un-owned street animal of shegaon who havebecome ill or
+            injured, and throught there rescue inspire a community to protect and defend the lives
+            of all animals
+          </div>
+        </div>
         <Featuring />
         <Newsletter />
       </Card>

@@ -31,7 +31,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Image
-import bgImage from "assets/images/illustrations/illustration-reset.jpg";
+import bgImage from "assets/images/illustrations/dog.avif";
 
 function ContactUs() {
   return (
@@ -56,7 +56,11 @@ function ContactUs() {
             borderRadius="lg"
             ml={2}
             mt={2}
-            sx={{ backgroundImage: `url(${bgImage})` }}
+            sx={{
+              backgroundImage: `url(${bgImage})`,
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "cover",
+            }}
           />
         </Grid>
         <Grid
@@ -95,8 +99,8 @@ function ContactUs() {
             </MKBox>
             <MKBox p={3}>
               <MKTypography variant="body2" color="text" mb={3}>
-                For further questions, including partnership opportunities, please email
-                hello@creative-tim.com or contact using our contact form.
+                For further inquiries, including partnership opportunities, please reach out to us
+                at https://friendsofanimals.org.in/ or use our contact form below.
               </MKTypography>
               <MKBox width="100%" component="form" method="post" autoComplete="off">
                 <Grid container spacing={3}>
