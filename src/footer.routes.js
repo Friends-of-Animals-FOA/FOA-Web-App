@@ -8,14 +8,14 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
+// import logoCT from "assets/images/logo-ct-dark.png";
 
 const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
-    image: logoCT,
+    name: "Friends Of Animal",
+    image: "https://friendsofanimals.org.in/Images/logo.png",
     route: "/",
   },
   socials: [
@@ -38,29 +38,30 @@ export default {
   ],
   menus: [
     {
-      name: "company",
+      name: "Organization",
       items: [
-        { name: "about us", href: "" },
-        { name: "freebies", href: "" },
-        { name: "premium tools", href: "" },
-        { name: "blog", href: "" },
+        { name: "Ways to donate", href: "" },
+        { name: "Get involved", href: "" },
+        { name: "About us", href: "" },
+        { name: "For sponsors", href: "" },
+      ],
+    },
+
+    {
+      name: "Reach",
+      items: [
+        { name: "Instagram", href: "" },
+        { name: "Facebook", href: "" },
+        { name: "Twitter", href: "" },
+        { name: "Linkedin", href: "" },
       ],
     },
     {
-      name: "resources",
+      name: "Animal Care Resources",
       items: [
-        { name: "illustrations", href: "" },
-        { name: "bits & snippets", href: "" },
-        { name: "affiliate program", href: "" },
-      ],
-    },
-    {
-      name: "help & support",
-      items: [
-        { name: "contact us", href: "" },
-        { name: "knowledge center", href: "" },
-        { name: "custom development", href: "" },
-        { name: "sponsorships", href: "" },
+        { name: "Animal Care Illustrations", href: "" },
+        { name: "Animal Care Tips & Advice", href: "" },
+        { name: "Animal Care Partnerships Program", href: "" },
       ],
     },
     {
@@ -74,16 +75,16 @@ export default {
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date}{" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href=""
         target="_blank"
         rel="noreferrer"
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        Friends Of Animal
       </MKTypography>
       .
     </MKTypography>
