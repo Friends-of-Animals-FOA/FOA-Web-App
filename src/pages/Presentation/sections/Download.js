@@ -16,7 +16,7 @@ Coded by www.creative-tim.com
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Tooltip from "@mui/material/Tooltip";
+// import Tooltip from "@mui/material/Tooltip";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -24,7 +24,7 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/shapes/waves-white.svg";
+import bgImage from "assets/images/bg2.jpg";
 
 function Download() {
   return (
@@ -76,7 +76,7 @@ function Download() {
       </MKBox>
       <Container>
         <Grid container item xs={6} mx="auto">
-          <MKBox textAlign="center">
+          {/* <MKBox textAlign="center">
             <MKTypography variant="h3" mt={6} mb={3}>
               Available on these technologies
             </MKTypography>
@@ -127,10 +127,10 @@ function Download() {
                       src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg"
                       width="100%"
                     />
-                  </MKBox>
-                </Tooltip>
-              </Grid>
-              <Grid item xs={4} lg={2}>
+                  </MKBox> */}
+          {/* </Tooltip>
+              </Grid> */}
+          {/* <Grid item xs={4} lg={2}>
                 <Tooltip title="Comming soon">
                   <MKBox
                     opacity={0.5}
@@ -180,7 +180,7 @@ function Download() {
                 </Tooltip>
               </Grid>
             </Grid>
-          </MKBox>
+          </MKBox> */}
         </Grid>
       </Container>
     </MKBox>
