@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /*
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -26,11 +27,11 @@ import MKTypography from "components/MKTypography";
 import DefaultReviewCard from "examples/Cards/ReviewCards/DefaultReviewCard";
 
 // Images
-import appleLogo from "assets/images/logos/gray-logos/logo-apple.svg";
-import facebookLogo from "assets/images/logos/gray-logos/logo-facebook.svg";
-import nasaLogo from "assets/images/logos/gray-logos/logo-nasa.svg";
-import vodafoneLogo from "assets/images/logos/gray-logos/logo-vodafone.svg";
-import digitalOceanLogo from "assets/images/logos/gray-logos/logo-digitalocean.svg";
+import appleLogo from "assets/images/gray-dog.avif";
+import facebookLogo from "assets/images/gray-cat.avif";
+import nasaLogo from "assets/images/gray-rabbi.avif";
+import vodafoneLogo from "assets/images/gray-hen.avif";
+import digitalOceanLogo from "assets/images/horse.avif";
 
 function Information() {
   return (
@@ -44,38 +45,47 @@ function Information() {
           justifyContent="center"
           sx={{ mx: "auto", textAlign: "center" }}
         >
-          <MKTypography variant="h2">Trusted by over</MKTypography>
+          {/* <MKTypography variant="h2">Our Reviews</MKTypography> */}
           <MKTypography variant="h2" color="info" textGradient mb={2}>
-            1,679,477+ web developers
+            Animal Lover
           </MKTypography>
           <MKTypography variant="body1" color="text" mb={2}>
-            Many Fortune 500 companies, startups, universities and governmental institutions love
-            Creative Tim&apos;s products.
+            We are a passionate community dedicated to making a difference in the lives of our
+            beloved animal companions. Whether you're a devoted pet owner, a wildlife enthusiast, or
+            a champion for animal rights, our organization welcomes you with open arms
           </MKTypography>
         </Grid>
         <Grid container spacing={3} sx={{ mt: 8 }}>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
-              name="Nick Willever"
+              name="Haythahie  Balakrishnan"
               date="1 day ago"
-              review="This is an excellent product, the documentation is excellent and helped me get things done more efficiently."
+              review="Seeing nearly 1000 dogs in the shelter well maintained, properly given food, medical care and specially love made me speechless. This visit opened many more perspectives about life. Now whenever and however possible I am helping this NGO. I am giving this testimonial so that other also can have the credibility, because I visited this place in person."
               rating={5}
+              style={{
+                border: "1px solid #ddd !important", // Add border styles here
+                borderRadius: "5px", // Optional: Add border radius for rounded corners
+              }}
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
-              color="info"
-              name="Shailesh Kushwaha"
+              sx={{
+                backgroundColor: "red", // Change this to your desired hover color
+                color: "#fff", // Change text color when hovered if needed
+                // Add any other hover styles as needed
+              }}
+              name="Arun Vignesh"
               date="1 week ago"
-              review="I found solution to all my design needs from Creative Tim. I use them as a freelancer in my hobby projects for fun! And its really affordable, very humble guys !!!"
+              review="Changing thousands of lives is a great thing and a tough thing as well. I am here to let the visitors know that this 100% serving animal serving organization. Compassion for animals is intimately associated with goodness of character, and it may be confidently asserted that he who is cruel to animals cannot be a good man."
               rating={5}
             />
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
             <DefaultReviewCard
-              name="Samuel Kamuli"
+              name="Dusty Fate"
               date="3 weeks ago"
-              review="Great product. Helped me cut the time to set up a site. I used the components within instead of starting from scratch. I highly recommend for developers who want to spend more time on the backend!."
+              review="For over 20 years, I’ve been a supporter of BFAS. Their mission is similar to other animal rescues, but their strategies & tactics to achieve those goals align perfectly with grassroots efforts. Plz support BFAS, they are the real deal."
               rating={5}
             />
           </Grid>

@@ -27,8 +27,8 @@ import RotatingCardBack from "examples/Cards/RotatingCard/RotatingCardBack";
 import DefaultInfoCard from "examples/Cards/InfoCards/DefaultInfoCard";
 
 // Images
-import bgFront from "assets/images/rotating-card-bg-front.jpeg";
-import bgBack from "assets/images/rotating-card-bg-back.jpeg";
+import bgFront from "assets/images/calf2.jpg";
+import bgBack from "assets/images/cat-rotate.png";
 
 function Information() {
   return (
@@ -40,23 +40,18 @@ function Information() {
               <RotatingCardFront
                 image={bgFront}
                 icon="touch_app"
-                title={
-                  <>
-                    Feel the
-                    <br />
-                    Material Kit
-                  </>
-                }
-                description="All the MUI components that you need in a development have been re-design with the new look."
+                title={<>Saving Lives: Support Animal Rescue Today</>}
+                description="Your support can save lives. Help rescue and care for animals in need. Every donation counts. Join our mission to make a difference and give these innocent lives a chance. Donate now and be a hero for animals.
+                "
               />
               <RotatingCardBack
                 image={bgBack}
-                title="Discover More"
-                description="You will save a lot of time going from prototyping to full-functional code because all elements are implemented."
+                title="Caring for Animals: Donate Today"
+                description="Your donation makes a difference. Help injured and abandoned animals find hope, shelter, and care. Every contribution matters. Give now to be a part of our compassionate community and change lives."
                 action={{
                   type: "internal",
                   route: "/sections/page-sections/page-headers",
-                  label: "start with header",
+                  label: "Donate",
                 }}
               />
             </RotatingCard>
@@ -65,33 +60,33 @@ function Information() {
             <Grid container spacing={3}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="content_copy"
-                  title="Full Documentation"
-                  description="Built by developers for developers. Check the foundation and you will find
-                    everything inside our documentation."
+                  icon="pets"
+                  title=" Animal Welfare"
+                  description="Our unwavering commitment to animal welfare is at the heart of everything we do. We provide shelter, medical care, and love to animals in need, while advocating for responsible pet ownership and the prevention of cruelty."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="flip_to_front"
-                  title="MUI Ready"
-                  description="The world's most popular react components library for building user interfaces."
+                  icon="favorite_outline"
+                  title="Adoption"
+                  description="We encourage you to consider adoption as your first choice for adding a furry family member. By adopting, you save lives and provide loving homes to animals in search of a second chance
+                  ."
                 />
               </Grid>
             </Grid>
             <Grid container spacing={3} sx={{ mt: { xs: 0, md: 6 } }}>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="price_change"
-                  title="Save Time & Money"
-                  description="Creating your design from scratch with dedicated designers can be very expensive. Start with our Design System."
+                  icon="favorite"
+                  title="Save Animals"
+                  description="We're dedicated to rescuing and caring for those who cannot speak for themselves. Your support makes their second chances possible."
                 />
               </Grid>
               <Grid item xs={12} md={6}>
                 <DefaultInfoCard
-                  icon="devices"
-                  title="Fully Responsive"
-                  description="Regardless of the screen size, the website content will naturally fit the given resolution."
+                  icon="school"
+                  title="Education and Advocacy"
+                  description="We believe in educating the public about animal welfare. Explore resources for responsible pet care, adoption, and advocacy efforts to improve animal protection laws."
                 />
               </Grid>
             </Grid>

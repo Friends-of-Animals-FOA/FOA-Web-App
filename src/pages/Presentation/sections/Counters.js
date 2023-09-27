@@ -33,8 +33,9 @@ function Counters() {
             <DefaultCounterCard
               count={70}
               suffix="+"
-              title="Coded Elements"
-              description="From buttons, to inputs, navbars, alerts or cards, you are covered"
+              title="Animal Rescued"
+              description="Join us on this transformative journey, where every act of rescue is a beacon of hope, reminding us that together, we can create a brighter, kinder tomorrow for all creatures, great and small. 🐾❤️ #RescueWithPurpose
+"
             />
           </Grid>
           <Grid item xs={12} md={4} display="flex">
@@ -42,16 +43,17 @@ function Counters() {
             <DefaultCounterCard
               count={15}
               suffix="+"
-              title="Design Blocks"
-              description="Mix the sections, change the colors and unleash your creativity"
+              title="Volunteers"
+              description="Xpress your gratitude to all our volunteers for their dedication and hard work. Let them know how their efforts make a difference in the lives of animals and the success of your organization."
             />
             <Divider orientation="vertical" sx={{ display: { xs: "none", md: "block" }, ml: 0 }} />
           </Grid>
           <Grid item xs={12} md={4}>
             <DefaultCounterCard
               count={4}
-              title="Pages"
-              description="Save 3-4 weeks of work when you use our pre-made pages for your website"
+              suffix="+"
+              title="NGO's"
+              description="NGO that works to create a world where all animals are treated with compassion and respect"
             />
           </Grid>
         </Grid>

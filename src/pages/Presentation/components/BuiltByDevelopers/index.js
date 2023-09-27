@@ -22,9 +22,11 @@ import Icon from "@mui/material/Icon";
 import MKBox from "components/MKBox";
 import MKTypography from "components/MKTypography";
 
+import bgImage from "assets/images/rescue.jpg";
+
 function BuiltByDevelopers() {
-  const bgImage =
-    "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg";
+  // const bgImage =
+  //   "https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg";
 
   return (
     <MKBox
@@ -34,10 +36,10 @@ function BuiltByDevelopers() {
       my={2}
       py={6}
       sx={{
-        backgroundImage: ({ functions: { linearGradient, rgba }, palette: { gradients } }) =>
+        backgroundImage: ({ functions: { linearGradient } }) =>
           `${linearGradient(
-            rgba(gradients.dark.main, 0.8),
-            rgba(gradients.dark.state, 0.8)
+            `rgba(19, 90, 242, 0), rgba(19, 90, 242, 0.1)`, // Replace rgba(19, 90, 242, 0) with your desired opacity and color
+            `rgba(19, 90, 242, 0.5), rgba(19, 90, 242, 0.5)` // Replace rgba(19, 90, 242, 0) with your desired opacity and color
           )}, url(${bgImage})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
@@ -46,19 +48,16 @@ function BuiltByDevelopers() {
       <Container>
         <Grid container item xs={12} lg={6} sx={{ ml: { xs: 0, lg: 6 } }}>
           <MKTypography variant="h4" color="white" fontWeight="bold">
-            Built by developers
+            We Provide 24/7 Emergency Services
           </MKTypography>
-          <MKTypography variant="h1" color="white" mb={1}>
-            Complex Documentation
-          </MKTypography>
+          <MKTypography variant="h1" color="white" mb={1}></MKTypography>
           <MKTypography variant="body1" color="white" opacity={0.8} mb={2}>
-            From colors, cards, typography to complex elements, you will find the full
-            documentation. Play with the utility classes and you will create unlimited combinations
-            for our components.
+            <br />
+            Please free to contact us at +91 99999999 for emergency cases
           </MKTypography>
           <MKTypography
             component="a"
-            href="https://www.creative-tim.com/learning-lab/react/overview/material-kit/"
+            href="#"
             target="_blank"
             rel="noreferrer"
             variant="body2"
@@ -79,7 +78,7 @@ function BuiltByDevelopers() {
               },
             }}
           >
-            Read docs <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+            Call Now <Icon sx={{ fontWeight: "bold" }}>call</Icon>
           </MKTypography>
         </Grid>
       </Container>

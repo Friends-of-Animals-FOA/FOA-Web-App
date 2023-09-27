@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /*
 =========================================================
 * Material Kit 2 React - v2.1.0
@@ -44,7 +45,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-presentation.jpg";
+import bgImage from "assets/images/bg-main.jpg";
 
 function Presentation() {
   return (
@@ -60,7 +61,7 @@ function Presentation() {
         sticky
       />
       <MKBox
-        minHeight="75vh"
+        minHeight="80vh"
         width="100%"
         sx={{
           backgroundImage: `url(${bgImage})`,
@@ -68,10 +69,11 @@ function Presentation() {
           backgroundPosition: "top",
           display: "grid",
           placeItems: "center",
+          opacity: 1,
         }}
       >
         <Container>
-          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto">
+          <Grid container item xs={12} lg={7} justifyContent="center" mx="auto" ml={1}>
             <MKTypography
               variant="h1"
               color="white"
@@ -83,7 +85,20 @@ function Presentation() {
                 },
               })}
             >
-              Material Kit 2 React{" "}
+              Welcome to,
+              <MKTypography
+                variant="h1"
+                color="blue"
+                // sx={{ }
+                sx={({ breakpoints, typography: { size } }) => ({
+                  [breakpoints.down("md")]: {
+                    fontSize: size["3xl"],
+                  },
+                })}
+              >
+                {" "}
+                Friends of Animals..!
+              </MKTypography>
             </MKTypography>
             <MKTypography
               variant="body1"
@@ -92,8 +107,8 @@ function Presentation() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Free & Open Source Web UI Kit built over ReactJS &amp; MUI. Join over 1.6 million
-              developers around the world.
+              Animals are our fellow creatures, let's treat them with compassion so that they can
+              live happy and healthy lives.
             </MKTypography>
           </Grid>
         </Container>
@@ -122,9 +137,9 @@ function Presentation() {
               <FilledInfoCard
                 variant="gradient"
                 color="info"
-                icon="flag"
-                title="Getting Started"
-                description="Check the possible ways of working with our product and the necessary files for building your own project."
+                icon="warning"
+                title="Emergency Animal Rescue"
+                description=" We provide rapid response and assistance to injured or distressed animals, ensuring their safety and well-being. Our team is always ready to be the voice for those in need."
                 action={{
                   type: "external",
                   route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
@@ -134,10 +149,11 @@ function Presentation() {
             </Grid>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
+                variant="gradient"
                 color="info"
-                icon="precision_manufacturing"
-                title="Plugins"
-                description="Get inspiration and have an overview about the plugins that we used to create the Material Kit."
+                icon="local_hospital"
+                title=" Veterinary Care and Treatment"
+                description="Our experienced veterinarians offer top-quality medical care, from routine check-ups to critical surgeries. We ensure that every animal receives the best treatment possible."
                 action={{
                   type: "external",
                   route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
@@ -147,10 +163,11 @@ function Presentation() {
             </Grid>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
+                variant="gradient"
                 color="info"
-                icon="apps"
-                title="Components"
-                description="Material Kit is giving you a lot of pre-made components, that will help you to build UI's faster."
+                icon="people"
+                title="Connecting Animal Lovers"
+                description="We bring together individuals who share a passion for animals. Join our community of animal advocates and play an active role in creating a better world for animals."
                 action={{
                   type: "external",
                   route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
