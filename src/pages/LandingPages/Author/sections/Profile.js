@@ -25,7 +25,7 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import profilePicture from "assets/images/bruce-mars.jpg";
+import profilePicture from "assets/images/examples/profile.jpg";
 
 function Profile() {
   return (
@@ -38,41 +38,43 @@ function Profile() {
           <Grid container justifyContent="center" py={6}>
             <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
               <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
-                <MKTypography variant="h3">Michael Roven</MKTypography>
+                <MKTypography variant="h3">Dr. Prakash Amte , social worker</MKTypography>
                 <MKButton variant="outlined" color="info" size="small">
-                  Follow
+                  like
                 </MKButton>
               </MKBox>
               <Grid container spacing={3} mb={3}>
                 <Grid item>
                   <MKTypography component="span" variant="body2" fontWeight="bold">
-                    323&nbsp;
+                    {/* 323&nbsp; */}
                   </MKTypography>
                   <MKTypography component="span" variant="body2" color="text">
-                    Posts
+                    {/* Posts */}
                   </MKTypography>
                 </Grid>
                 <Grid item>
                   <MKTypography component="span" variant="body2" fontWeight="bold">
-                    3.5k&nbsp;
+                    {/* 3.5k&nbsp; */}
                   </MKTypography>
                   <MKTypography component="span" variant="body2" color="text">
-                    Followers
+                    {/* Followers */}
                   </MKTypography>
                 </Grid>
                 <Grid item>
                   <MKTypography component="span" variant="body2" fontWeight="bold">
-                    260&nbsp;
+                    {/* 260&nbsp; */}
                   </MKTypography>
                   <MKTypography component="span" variant="body2" color="text">
-                    Following
+                    {/* Following */}
                   </MKTypography>
                 </Grid>
               </Grid>
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
-                paths, choose the one more painful in the short term (pain avoidance is creating an
-                illusion of equality). Choose the path that leaves you more equanimous. <br />
+                Dr. Prakash Baba Amte, as he is known by many people around the country, lived a
+                tough lifestyle, dedicating all the entire time to the well-being of the tribal
+                people in the forest area of the district. According to interviews published on
+                reliable media, he often had to perform surgeries without lights as there was no
+                electricity for almost 20 years. <br />
                 <MKTypography
                   component="a"
                   href="#"
@@ -95,7 +97,7 @@ function Profile() {
                     },
                   }}
                 >
-                  More about me <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                  More about him <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
                 </MKTypography>
               </MKTypography>
             </Grid>
