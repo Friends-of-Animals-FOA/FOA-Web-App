@@ -35,8 +35,8 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="public"
-                    title="Fully integrated"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="For NonProfit"
+                    description="Learn more about how our best-in-class technology can help inspire more giving overall and make your organization shine."
                   />
                 </MKBox>
               </Grid>
@@ -44,8 +44,8 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="payments"
-                    title="Payments functionality"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title=" FAO & Support"
+                    description="Learn more about how our best-in-class technology can help inspire more giving overall and make your organization shine."
                   />
                 </MKBox>
               </Grid>
@@ -53,8 +53,8 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="apps"
-                    title="Prebuilt components"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title=" Donate to FOA"
+                    description="Learn more about how our best-in-class technology can help inspire more giving overall and make your organization shine."
                   />
                 </MKBox>
               </Grid>
@@ -62,8 +62,8 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="3p"
-                    title="Improved platform"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Animal Adoption Hub"
+                    description="Explore how our platform connects families with rescue organizations, simplifying the process of adopting animals in need and promoting responsible pet adoption."
                   />
                 </MKBox>
               </Grid>
@@ -71,9 +71,11 @@ function Information() {
           </Grid>
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
             <CenteredBlogCard
-              image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              title="Get insights on Search"
-              description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
+              image="https://imengine.prod.srp.navigacloud.com/?uuid=A5F5CAE6-DA2A-4E7A-B250-64FA54DDA080&type=primary&q=72&width=1024"
+              title="Focusing on Pet rescue Rehabilation
+              and Adoption
+              "
+              description="We are a passionate organization dedicated to rescuing, rehabilitating, and finding loving homes for pets in need. Our mission is to give every animal a second chance at a happy, healthy life through pet rescue and adoption."
               action={{
                 type: "internal",
                 route: "pages/company/about-us",

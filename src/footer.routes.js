@@ -8,82 +8,83 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
+// import logoCT from "assets/images/logo-ct-dark.png";
 
 const date = new Date().getFullYear();
 
 export default {
   brand: {
-    name: "Material Kit 2",
-    image: logoCT,
+    name: "Friends Of Animal",
+    image: "https://friendsofanimals.org.in/Images/logo.png",
     route: "/",
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      link: "",
     },
     {
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "",
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      link: "",
     },
   ],
   menus: [
     {
-      name: "company",
+      name: "Organization",
       items: [
-        { name: "about us", href: "https://www.creative-tim.com/presentation" },
-        { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        { name: "blog", href: "https://www.creative-tim.com/blog" },
+        { name: "Ways to donate", href: "" },
+        { name: "Get involved", href: "" },
+        { name: "About us", href: "" },
+        { name: "For sponsors", href: "" },
+      ],
+    },
+
+    {
+      name: "Reach",
+      items: [
+        { name: "Instagram", href: "" },
+        { name: "Facebook", href: "" },
+        { name: "Twitter", href: "" },
+        { name: "Linkedin", href: "" },
       ],
     },
     {
-      name: "resources",
+      name: "Animal Care Resources",
       items: [
-        { name: "illustrations", href: "https://iradesign.io/" },
-        { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
-      ],
-    },
-    {
-      name: "help & support",
-      items: [
-        { name: "contact us", href: "https://www.creative-tim.com/contact-us" },
-        { name: "knowledge center", href: "https://www.creative-tim.com/knowledge-center" },
-        { name: "custom development", href: "https://services.creative-tim.com/" },
-        { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
+        { name: "Animal Care Illustrations", href: "" },
+        { name: "Animal Care Tips & Advice", href: "" },
+        { name: "Animal Care Partnerships Program", href: "" },
       ],
     },
     {
       name: "legal",
       items: [
-        { name: "terms & conditions", href: "https://www.creative-tim.com/terms" },
-        { name: "privacy policy", href: "https://www.creative-tim.com/privacy" },
-        { name: "licenses (EULA)", href: "https://www.creative-tim.com/license" },
+        { name: "terms & conditions", href: "" },
+        { name: "privacy policy", href: "" },
+        { name: "licenses (EULA)", href: "" },
       ],
     },
   ],
   copyright: (
     <MKTypography variant="button" fontWeight="regular">
-      All rights reserved. Copyright &copy; {date} Material Kit by{" "}
+      All rights reserved. Copyright &copy; {date}{" "}
       <MKTypography
         component="a"
-        href="https://www.creative-tim.com"
+        href=""
         target="_blank"
         rel="noreferrer"
         variant="button"
         fontWeight="regular"
       >
-        Creative Tim
+        Friends Of Animal
       </MKTypography>
       .
     </MKTypography>
