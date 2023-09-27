@@ -34,7 +34,7 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="public"
+                    icon="attach_money"
                     title="For NonProfit"
                     description="Learn more about how our best-in-class technology can help inspire more giving overall and make your organization shine."
                   />
@@ -43,7 +43,7 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={5}>
                   <DefaultInfoCard
-                    icon="payments"
+                    icon="3p"
                     title=" FAO & Support"
                     description="Learn more about how our best-in-class technology can help inspire more giving overall and make your organization shine."
                   />
@@ -52,7 +52,7 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="apps"
+                    icon="favorite"
                     title=" Donate to FOA"
                     description="Learn more about how our best-in-class technology can help inspire more giving overall and make your organization shine."
                   />
@@ -61,7 +61,7 @@ function Information() {
               <Grid item xs={12} md={6}>
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
-                    icon="3p"
+                    icon="pets"
                     title="Animal Adoption Hub"
                     description="Explore how our platform connects families with rescue organizations, simplifying the process of adopting animals in need and promoting responsible pet adoption."
                   />

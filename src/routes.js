@@ -100,7 +100,7 @@ const routes = [
         collapse: [
           {
             name: "sign in",
-            route: "/pages/authentication/sign-in",
+            route: "#",
             component: <SignIn />,
           },
         ],
@@ -250,7 +250,7 @@ const routes = [
     component: <ContactUs />,
   },
   {
-    name: "author",
+    name: "Blogs",
     route: "/pages/landing-pages/author",
     component: <Author />,
   },
