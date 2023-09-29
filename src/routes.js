@@ -100,7 +100,7 @@ const routes = [
         collapse: [
           {
             name: "sign in",
-            route: "#",
+            route: "https://65170df6e86c39046a824b85--taupe-smakager-70754a.netlify.app/",
             component: <SignIn />,
           },
         ],
