@@ -142,7 +142,7 @@ function Presentation() {
                 description=" We provide rapid response and assistance to injured or distressed animals, ensuring their safety and well-being. Our team is always ready to be the voice for those in need."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/material-kit/",
+                  route: "#",
                   label: "Let's start",
                 }}
               />
@@ -156,7 +156,7 @@ function Presentation() {
                 description="Our experienced veterinarians offer top-quality medical care, from routine check-ups to critical surgeries. We ensure that every animal receives the best treatment possible."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/overview/datepicker/",
+                  route: "#",
                   label: "Read more",
                 }}
               />
@@ -170,7 +170,7 @@ function Presentation() {
                 description="We bring together individuals who share a passion for animals. Join our community of animal advocates and play an active role in creating a better world for animals."
                 action={{
                   type: "external",
-                  route: "https://www.creative-tim.com/learning-lab/react/alerts/material-kit/",
+                  route: "#",
                   label: "Read more",
                 }}
               />
