@@ -46,6 +46,7 @@ import Icon from "@mui/material/Icon";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
+import Donation from "layouts/pages/landing-pages/donation";
 import SignIn from "layouts/pages/authentication/sign-in";
 
 // Sections
@@ -82,6 +83,11 @@ const routes = [
             name: "about us",
             route: "/pages/landing-pages/about-us",
             component: <AboutUs />,
+          },
+          {
+            name: "Donate",
+            route: "/pages/landing-pages/donation",
+            component: <Donation />,
           },
           {
             name: "contact us",
@@ -243,6 +249,11 @@ const routes = [
     name: "about us",
     route: "/pages/landing-pages/about-us",
     component: <AboutUs />,
+  },
+  {
+    name: "Donate",
+    route: "/pages/landing-pages/donation",
+    component: <Donation />,
   },
   {
     name: "contact us",
